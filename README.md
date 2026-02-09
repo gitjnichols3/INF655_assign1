@@ -1,16 +1,9 @@
-# React + Vite
+Assignment submission includes - 
+    - Greeting.jsx
+    - UserInfo.jsx
+    - TaskComponent.jsx
+All within the component folder.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Additionally, App.jsx has been modified to import and render the listed components.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Note: Task 3 instructions do not specify the creation of the TaskComponent component. The do specifically direct the creation of an array of tasks inside the App component. So, I originally created the entire functionality of task 3 within the App component. Task 4 references the inclusion of a TaskComponent component which is not previously specified. Therefore, I had to choose which elements to move from App.jsx to TaskComponent.jsx.  I was unsure of whether to include getRandomTask() in the TaskComponent or in App.jsx. I tried to set it up to illustrate the use of props to send data into the component by using App.jsk to generate the random task and to send the props value from there to TaskComponent to generate the <h3>. I hope that is satisfactory.
