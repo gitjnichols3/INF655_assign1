@@ -4,7 +4,7 @@ import TaskComponent from './components/TaskComponent';
 import './App.css'
 
 function App() {
-  const tasks = ["Eat a salad", "Go for a walk", "Take your supplements"];
+  const tasks = ["Eat a big salad", "Go for a walk", "Take your supplements"];
 
   function getRandomTask(){
     const index = Math.floor(Math.random() * tasks.length);
